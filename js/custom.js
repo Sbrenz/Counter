@@ -1,44 +1,44 @@
 // DISPLAY
 
-let displayDiv = document.createElement("div");
+const displayDiv = document.createElement("div");
 document.getElementById("container-button").appendChild(displayDiv);
 
 // DISPLAY NUMBER
 
-let num = document.createElement("p");
-let defaultNum = document.createTextNode("0");
+const num = document.createElement("p");
+const defaultNum = document.createTextNode("0");
 num.appendChild(defaultNum);
 displayDiv.appendChild(num);
 num.classList.add("num");
 
 //DIV button
 
-let counterDiv = document.createElement("div");
+const counterDiv = document.createElement("div");
 counterDiv.classList.add("counterDiv");
 displayDiv.after(counterDiv);
 
 //PLUS button
 
-let plusButton = document.createElement("button");
-let plusText = document.createTextNode("+");
+const plusButton = document.createElement("button");
+const plusText = document.createTextNode("+");
 plusButton.appendChild(plusText);
 counterDiv.appendChild(plusButton);
 
  //RESET button
 
-let reset = document.createElement("button");
-let resetText = document.createTextNode("reset");
+const reset = document.createElement("button");
+const resetText = document.createTextNode("reset");
 reset.appendChild(resetText);
 counterDiv.appendChild(reset);
 
 //MINUS button
 
-let minusButton = document.createElement("button");
-let minusText = document.createTextNode("-");
+const minusButton = document.createElement("button");
+const minusText = document.createTextNode("-");
 minusButton.appendChild(minusText);
 counterDiv.appendChild(minusButton);
 
-//FUNCTION
+//EVENTs
 
 let i=0;
 
