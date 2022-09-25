@@ -1,4 +1,11 @@
 // DISPLAY
+const container = document.createElement("div");
+container.classList.add("container");
+document.body.appendChild(container);
+
+const containerButton = document.createElement("div");
+containerButton.id = "container-button"
+container.appendChild(containerButton);
 
 const displayDiv = document.createElement("div");
 document.getElementById("container-button").appendChild(displayDiv);
