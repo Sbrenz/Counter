@@ -5,7 +5,7 @@ I created a web application with javascript, and it is a counter which has three
 plus, minus and reset, to add and subtract the main number that is zero.
 
 I implemented a div that contains a paragraph with the main number,
-then another div which contains the trhee buttons.
+then another div which contains the three buttons.
 
 YOU CAN TEST THE COUNTER HERE !!!
 https://singular-gelato-5adcb2.netlify.app/
